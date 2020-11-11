@@ -21,7 +21,7 @@ jobs:
 
       - name: meow
         uses: ./.github/actions/issue-maker
-#        id: cat
+        id: cat
 
       - name: create-issue
         uses: ./.github/actions/issue-maker
