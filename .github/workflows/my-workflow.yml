@@ -20,7 +20,7 @@ jobs:
         uses: ./.github/actions/hello-world
 
       - name: meow
-        uses: ./.github/actions/cat-facts
+        uses: ./.github/actions/issue-maker
         id: cat
 
       - name: create-issue
